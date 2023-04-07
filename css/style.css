@@ -1,0 +1,722 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/silk-serif');
+
+
+#logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.img-logo{
+    height: 330px;
+}
+
+#info{
+    width: 100%;
+}
+
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    top: 40px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 100px;
+    position: relative;
+}
+
+.d-text1{
+    width: 770px;
+    height: 96px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33443C;
+    margin: 0;
+}
+
+.d-text2{
+    width: 570px;
+    height: 96px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #33443C;
+    margin: 0;
+}
+
+.heart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 80px;
+}
+
+.heart1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 200px;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 166px;
+    top: 100px;
+    position: relative;
+}
+
+.p1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33443C;
+    margin:0;
+}
+
+.p2{
+    font-family: 'Silk Serif';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #33443C;
+    margin: 0 0 10px 0;
+}
+
+.p3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33443C;
+    margin: 0 0 10px 0;
+}
+
+.p4{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33443C;
+    margin:0;
+}
+
+.palaroid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+.program{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 506.06px;
+    top: 150px;
+}
+
+.t1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33443C;
+}
+
+.right{
+    position: relative;
+    width: 200px;
+    height: 419px;
+    right: -130px;
+    top: -548px;
+}
+
+.left{
+    position: relative;
+    width: 200px;
+    height: 419px;
+    left: -130px;
+    top: -451px;
+}
+
+.ev1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 12px;
+}
+
+.ev3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 135px;
+}
+
+.ev5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 260px;
+}
+
+.ev2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 100px;
+    text-align: right;
+  }
+  
+  .ev4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 245px;
+    text-align: right;
+  }
+
+.ev1_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 12px;
+}
+
+.ev3_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 135px;
+}
+
+.ev5_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 260px;
+}
+
+.ev2_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 100px;
+    text-align: right;
+}
+  
+.ev4_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 245px;
+    text-align: right;
+}
+  
+
+.title{
+    width: 201px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    color: #33443C;
+    margin: 0;
+}
+
+.time{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #33443C;
+    margin: 0;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 220px;
+}
+
+.d-1{
+    width: 570px;
+    height: 288px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #33443C;
+    margin: 0;
+}
+
+.creng{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.creng1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -80px;
+}
+
+.d-21{
+    position: relative;
+    top: -80px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33443C;
+    margin: 0;
+}
+.d-2{
+    position: relative;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33443C;
+    margin: 0;
+}
+
+.d-31{
+    position: relative;
+    top: -40px;
+    width: 570px;
+    height: 192px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #33443C;
+}
+
+.d-3{
+    position: relative;
+    top: 10px;
+    width: 570px;
+    height: 192px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #33443C;
+}
+
+.flower1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: -50px;
+}
+
+.flower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.fl{
+    height: 75px;
+}
+
+.d-4{
+    position: relative;
+    top: 10px;
+    width: 300px;
+    height: 26px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33443C;
+}
+
+.d-5{
+    position: relative;
+    top: 10px;
+    width: 570px;
+    height: 96px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #33443C;
+    margin: 0;
+}
+
+.leafs1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: -16px;
+}
+
+.leafs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 10px;
+}
+
+.fl{
+    height: 75px;
+}
+
+.d-6{
+    position: relative;
+    top: -20px;
+    width: 570px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #33443C;
+}
+
+.heart3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 50px;
+}
+
+.hr{
+    height: 40px;
+}
+
+.d-7{
+    position: relative;
+    top: 80px;
+    width: 570px;
+    height: 64px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #33443C;
+}
+
+.d-8{
+    top: 80px;
+    position: relative;
+    width: 136px;
+    height: 26px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33443C;
+}
+
+.d-81{
+    top: 80px;
+    position: relative;
+    width: 136px;
+    height: 26px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33443C;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+
+.map1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 350px;
+}
+
+iframe {
+    border: 10px solid #fff; /* bordură de 10px, culoarea albă (#fff) */
+}
+
+.switch {
+    position: absolute; 
+    top: 30px;
+    left: 60%;
+    transform: translate(-50%, -50%); 
+  }
+  
+
+.swtc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+  
+  
+@media only screen and (max-width: 844px) {
+    #info{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .d-text1{
+        width: 100%;
+        font-size: small;
+    }
+    .d-text2{
+        width: 100%;
+        font-size: large;
+    }
+    div{
+        padding: 20px;
+        font-size: 10px;
+        top: -10px;
+    }
+    .ev2{
+        top: 58px;
+    }
+    .ev4{
+        top: 166px;
+    }
+    .ev1{
+        top: -170px;
+    }
+    .ev3{
+        top: -88px;
+    }
+    .ev5{
+        top: -28px;
+    }
+    .ev2_1{
+        position: relative;
+        top: 60px;
+        text-align: right;
+    }
+    .ev4_1{
+        position: relative;
+        top: 166px;
+        text-align: right;
+    }
+    .ev1_1{
+        position: relative;
+        top: -146px;
+    }
+    .ev3_1{
+        position: relative;
+        top: -88px;
+    }
+    .ev5_1{
+        position: relative;
+        top: -28px;
+    }
+    .right{
+        right:-83px
+    }
+    .left{
+        left:-90px
+    }
+    .title{
+        width: 100%;
+    }
+    .d-1{
+        width: 100%;
+        font-size: large;
+    }
+    .d-3{
+        width: 100%;
+        font-size: large;
+    }
+    .d-31{
+        width: 100%;
+        font-size: large;
+    }
+    .d-5{
+        width: 100%;
+        font-size: large;
+    }
+    .d-6{
+        width: 100%;
+        font-size: large;
+    }
+    .d-7{
+        width: 100%;
+        font-size: large;
+    }
+    .d-81{
+        width: 100%;
+        font-size: large;
+        top: 110px;
+    }
+    .description{
+        top: 10px;
+    }
+    .heart{
+        top: 10px;
+    }
+    .heart1{
+        top: 40px;
+    }
+    .place{
+        top: 10px;
+    }
+    .palaroid{
+        top: 25px;
+    }
+    .program{
+        top: 25px;
+    }
+    .desc{
+        top: 25px;
+    }
+    .name{
+        top: 0px;
+    }
+    .map{
+        width: 100%;
+        top: 80px;
+        position: relative;
+    }
+    .map1{
+        width: 100%;
+        top: 100px;
+        position: relative;
+    }
+    iframe{
+        width: 100%;
+    }
+    .switch{
+        left: 90%;
+    }
+    .creng1{
+        top: -55px;
+    }
+}
