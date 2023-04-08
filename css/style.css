@@ -2,6 +2,8 @@
 
 @import url('https://fonts.cdnfonts.com/css/silk-serif');
 
+@import url('https://fonts.cdnfonts.com/css/savoye-let');              
+
 
 #logo{
     display: flex;
@@ -153,6 +155,56 @@
     position: relative;
     width: 100%;
     top: 100px;
+}
+
+.foto-size{
+    position: absolute;
+    width: 326.47px;
+    height: 282.94px;
+    top: 21px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    width: 225%;
+    object-position: -20px -16px;
+}
+
+.rectangle{
+    position: relative;
+    width: 370px;
+    height: 413.53px;
+    background: #FFFFFF;
+}
+
+.pal-text1{
+    position: relative;
+    top: -100px;
+    width: 193px;
+    height: 56px;
+    font-family: 'Savoye LET' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: #33443C;
+}
+
+.pal-text2{
+    position: relative;
+    top: -50px;
+    width: 118px;
+    height: 20px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #33443C;
 }
 
 .program{
@@ -583,7 +635,7 @@ iframe {
 }
   
   
-@media only screen and (max-width: 844px) {
+@media screen and (max-width: 844px) {
     #info{
         max-width: 100%;
         max-height: auto;
